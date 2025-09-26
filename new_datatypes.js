@@ -43,3 +43,32 @@ const addNumbers=function(a,b){
 }
 
 console.log(addNumbers(2,3));
+
+
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack(primitive data types)
+// heap(reference data types)
+
+let myYoutubeChannel="Ayaz"
+
+let anotherChannel=myYoutubeChannel;
+
+anotherChannel="Code with Ayaz";
+
+console.log(myYoutubeChannel);
+console.log(anotherChannel);
+
+
+let userOne={
+    email:"ayaz@example.com",
+    upi:"ayaz@okaxis"
+}
+
+let userTwo=userOne;
+
+userTwo.email="ayaz2@example.com";
+
+console.log(userOne.email);
+console.log(userTwo.email);
