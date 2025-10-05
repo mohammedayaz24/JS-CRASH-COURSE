@@ -28,7 +28,7 @@ console.log(newString);
 //slice
 console.log("Slice method");
 const gamename1="abcdefgh";
-const newString2= gamename1.slice(-8,-4);
+const newString2= gamename1.slice(-6,-4);
 console.log(newString2);
 
 //trim
